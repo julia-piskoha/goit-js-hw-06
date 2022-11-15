@@ -7,5 +7,5 @@ function getRandomHexColor() {
 
 button.addEventListener("click", (event) => {
   body.style.backgroundColor = getRandomHexColor();
-  return console.log((span.textContent = getRandomHexColor()));
+  return console.log((span.textContent = body.style.backgroundColor));
 });
